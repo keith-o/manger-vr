@@ -1,0 +1,42 @@
+[
+  {
+    "imageAsset": {
+      "assetId": "asset_106745238cfc4b06b49f447a959db529",
+      "url": "01-dim-bethlehem-house-with-stone-manger.png"
+    },
+    "camera": {
+      "intrinsics": {
+        "fx": 1127.2554931640625,
+        "fy": 1127.2554931640625,
+        "cx": 640,
+        "cy": 360,
+        "width": 1280,
+        "height": 720
+      },
+      "extrinsics": {
+        "position": [
+          4.440892098500626e-16,
+          0.815058708190918,
+          0
+        ],
+        "quaternion": [
+          -0.007613892321797133,
+          0.316205582629064,
+          0.0005948578286277188,
+          0.9486599518805935
+        ],
+        "coordinateSystem": "rub"
+      }
+    },
+    "depth": {
+      "confidenceAsset": {
+        "assetId": "asset_b7a6c621f06d3b9869adec03b1b2761f",
+        "url": "01-dim-bethlehem-house-with-stone-manger-confidence.png"
+      },
+      "depthAsset": {
+        "assetId": "asset_9c5ad1710fe7cd1b14644400a95972f3",
+        "url": "01-dim-bethlehem-house-with-stone-manger-depth.exr"
+      }
+    }
+  }
+]

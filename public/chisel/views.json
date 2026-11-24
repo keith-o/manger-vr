@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "hero-1",
+    "fov": 60,
+    "fit": 0.9997
+  },
+  {
+    "slug": "hero-2",
+    "fov": 60,
+    "fit": 0.9998
+  },
+  {
+    "slug": "hero-3",
+    "fov": 60,
+    "fit": 0.9988
+  },
+  {
+    "slug": "hero-4",
+    "fov": 60,
+    "fit": 0.9986
+  },
+  {
+    "slug": "stabling-level-reference-view",
+    "fov": 50,
+    "fit": 0.999
+  },
+  {
+    "slug": "rock-cut-cave-wall-and-bench",
+    "fov": 50,
+    "fit": 0.9995
+  },
+  {
+    "slug": "platform-toward-front-left-floor",
+    "fov": 52,
+    "fit": 0.9992
+  },
+  {
+    "slug": "cave-side-toward-front-right-arch",
+    "fov": 51.75,
+    "fit": 0.9985
+  },
+  {
+    "slug": "carved-manger-from-step-side",
+    "fov": 50,
+    "fit": 0.9992
+  },
+  {
+    "slug": "low-beamed-reed-ceiling-rafters",
+    "fov": 52,
+    "fit": 0.9991
+  },
+  {
+    "slug": "east-wall-and-doorway-latch",
+    "fov": 50,
+    "fit": 0.9999
+  },
+  {
+    "slug": "southwest-ceiling-rafters-and-reeds",
+    "fov": 50,
+    "fit": 0.9987
+  }
+]

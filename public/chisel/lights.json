@@ -1,0 +1,12 @@
+{
+  "lamps": [
+    { "name": "right wall niche, near door", "flame": "drawn", "position": [3.09, 1.255, -0.435], "facing": [-1, 0, 0] },
+    { "name": "right wall niche, middle", "flame": "drawn", "position": [3.1, 1.256, 1.497], "facing": [-1, 0, 0] },
+    { "name": "right wall niche, far", "flame": "drawn", "position": [3.12, 1.457, 2.934], "facing": [-1, 0, 0] },
+    { "name": "back wall niche, beside door", "flame": "drawn", "position": [0.64, 1.195, -2.07], "facing": [0, 0, 1] },
+    { "name": "left bench lamp", "flame": "baked", "position": [-2.252, 0.7, 0.48] }
+  ],
+  "darken": [
+    { "name": "overhead glow on ceiling", "position": [0.4, 2.4, 1.3] }
+  ]
+}
