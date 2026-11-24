@@ -16,7 +16,7 @@ import { addLamps } from './lamps.js';
 //   ?debug=views   color each painted surface by which view painted it
 //   ?budget=<n>    splat budget as a fraction of Spark's default (see SPLAT_BUDGET)
 //   ?minpx=<n>     smallest splat size in pixels worth drawing (see SPLAT_MIN_PIXELS)
-// Shimmer diagnosis (watch the FPS readout under your view in the headset):
+// Shimmer diagnosis (add ?fps=1 to see a frame-rate readout under your view in the headset):
 //   ?res=<n>       headset render resolution scale, e.g. 0.6
 //   ?fov=1         turn Spark's foveation back on (less detail away from where you look)
 //   ?lod=0         no level-of-detail: draw all 2M splats every frame
@@ -64,7 +64,7 @@ scene.add(rig);
 const camera = new THREE.PerspectiveCamera(70, innerWidth / innerHeight, 0.05, 100);
 rig.add(camera);
 
-// Frame-rate readout fixed below your line of sight, so the headset can report it.
+// Frame-rate readout fixed below your line of sight (?fps=1), so the headset can report it.
 const fpsCanvas = Object.assign(document.createElement('canvas'), { width: 256, height: 64 });
 const fpsTexture = new THREE.CanvasTexture(fpsCanvas);
 fpsTexture.colorSpace = THREE.SRGBColorSpace;
@@ -74,7 +74,7 @@ const fpsPanel = new THREE.Mesh(
 );
 fpsPanel.position.set(0, -0.22, -0.6);
 fpsPanel.renderOrder = 999;
-camera.add(fpsPanel);
+if (params.get('fps') === '1') camera.add(fpsPanel);
 let fpsFrames = 0, fpsSince = performance.now();
 function updateFps(now) {
   fpsFrames++;
